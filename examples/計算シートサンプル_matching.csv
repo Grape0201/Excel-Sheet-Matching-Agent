@@ -1,0 +1,5 @@
+cell,value,match,source,page_noreason,symbol
+B2,100.0,True,出典サンプル,1,The PDF mentions 100Bq/cm3 which matches the input.,あ
+B3,1000.0,False,-,-,The input value (1000.0 cm3) differs from the source (100ml).,-
+B5,4.5e-11,True,出典サンプル,1,The PDF mentions 4.5E-11Sv m2/Bq which matches the input.,う
+B6,5.0,True,出典サンプル,1,"The PDF mentions 500cm which is equal to 5m, which matches the input.",え
