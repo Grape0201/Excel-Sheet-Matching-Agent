@@ -5,13 +5,13 @@ class ExcelCellInputData(BaseModel):
     sheet: str
     cell: str
     value: int | float
-    metadata: dict
+    metadata: list[str]
 
 class ExcelCellFormulaData(BaseModel):
     sheet: str
     cell: str
     value: str
-    metadata: dict
+    metadata: list[str]
 
 class ExcelSheetData(BaseModel):
     input: list[ExcelCellInputData]

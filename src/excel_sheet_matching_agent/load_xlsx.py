@@ -32,10 +32,7 @@ def extract_cell_info(sheet: Worksheet) -> ExcelSheetData:
                 except:
                     return ""
 
-            metadata = {
-                "left": safe_value(-1, 0),
-                "right": safe_value(1, 0),
-            }
+            metadata = [safe_value(-1, 0), safe_value(1, 0)]
 
             if cell_type == "input":
                 input_data.append(ExcelCellInputData(
